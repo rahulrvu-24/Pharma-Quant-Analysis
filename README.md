@@ -1,7 +1,6 @@
 # Pharma / Healthcare Sector — Quantitative Equity Analysis
 
 **Quant Analyst Internship Task | Institute of Digital Risk | May 2026**  
-**Author:** Rahul Kiran | B.Sc. (Honours) Computer Science, RV University
 
 ---
 
@@ -24,18 +23,19 @@ Pharma equities were chosen for three reasons:
 ## Project Structure
 
 ```
-pharma_quant_analysis.ipynb   ← Main analysis notebook (self-contained, runnable)
-pharma_quant_summary.docx     ← Written summary report
-README.md                     ← This file
-charts & visualizations
-    fig1_normalised_performance.png
-    fig2_correlation.png
-    fig3_mean_reversion.png
-    fig4_volatility_clustering.png
-    fig5_dispersion.png
-    fig6_backtest_results.png
-    fig7_bootstrap_sharpe.png
-    fig8_sensitivity.png
+QUANT_ANALYSIS_ASSIGNMENT/
+├── pharma_quant_analysis.ipynb   ← Main analysis notebook (self-contained, runnable)
+├── pharma_quant_summary.docx     ← Written summary report
+├── charts & visualizations
+│   ├── fig1_normalised_performance.png
+│   ├── fig2_correlation.png
+│   ├── fig3_mean_reversion.png
+│   ├── fig4_volatility_clustering.png
+│   ├── fig5_dispersion.png
+│   ├── fig6_backtest_results.png
+│   ├── fig7_bootstrap_sharpe.png
+│   ├── fig8_sensitivity.png
+└── README.md                     
 ```
 
 ---
@@ -49,7 +49,7 @@ charts & visualizations
 | **Frequency** | Daily close prices |
 | **Source (primary)** | `yfinance` with `auto_adjust=True` (splits + dividends adjusted) |
 | **Source (fallback)** | Calibrated GBM synthetic data — activated automatically when yfinance is unavailable |
-| **Trading days** | 1,258 (live) / 1,303 (synthetic) |
+| **Trading days** | 1,256 (live) / 1,303 (synthetic) |
 
 > **Important:** All reported results (events, statistics, backtest metrics) reflect the **live yfinance dataset**. The synthetic fallback generates only 14 events due to fewer injected shocks, making the sensitivity grid unreliable on that dataset. Run on a machine with internet access for full results.
 
