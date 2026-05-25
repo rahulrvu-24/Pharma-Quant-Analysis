@@ -40,6 +40,7 @@ QUANT_ANALYSIS_ASSIGNMENT/
 │   ├── fig6_backtest_results.png
 │   ├── fig7_bootstrap_sharpe.png
 │   ├── fig8_sensitivity.png
+├── requirements.txt
 └── README.md                     
 ```
 
