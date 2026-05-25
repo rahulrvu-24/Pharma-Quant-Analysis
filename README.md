@@ -7,6 +7,11 @@
 ## Overview
 
 A end-to-end quantitative equity analysis of five large-cap US pharmaceutical stocks (JNJ, PFE, MRK, ABBV, LLY) covering January 2020 – December 2024. The project identifies three empirical patterns in pharma equity returns, proposes and backtests a buy-the-dip trading strategy, and evaluates its statistical validity using bootstrap resampling.
+JNJ - Johnson & Johnson
+PFE - Pfizer
+MRK - Merck & Co.
+ABBV - AbbVie Inc.
+LLY - Eli Lilly & Co.
 
 ---
 
